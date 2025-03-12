@@ -6,7 +6,7 @@ interface Props {
 }
 
 const BackgroundImage: React.FC<Props> = ({
-  src = "/images/background.png",
+  src = "/images/background-Login.png",
   opacity = 0.5,
 }) => {
   return (
