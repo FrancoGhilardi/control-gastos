@@ -1,1 +1,3 @@
-// Componentes mas grandes que pueden combinar atomos y moleculas
+import AuthLayout from "./AuthLayout";
+import AuthContainer from "./AuthContainer";
+export { AuthLayout, AuthContainer };

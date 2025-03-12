@@ -11,7 +11,7 @@ const BackgroundImage: React.FC<Props> = ({
 }) => {
   return (
     <div
-      className="absolute inset-0 bg-cover bg-center"
+      className="absolute inset-0 z-0 bg-cover bg-center"
       style={{
         backgroundImage: `url(${src})`,
         opacity,

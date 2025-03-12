@@ -1,1 +1,3 @@
-// Componentes mas pequeños
+import BackgroundImage from "./BackgroundImage";
+
+export { BackgroundImage };
