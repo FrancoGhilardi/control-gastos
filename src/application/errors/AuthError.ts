@@ -1,0 +1,1 @@
+// Errores específicos de autenticación
