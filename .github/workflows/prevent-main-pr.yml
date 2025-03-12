@@ -1,0 +1,15 @@
+name: Prevent PRs to Main
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  block_prs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fail PR to Main
+        run: |
+          echo "⚠️ ERROR: No puedes hacer un PR directamente a 'main'. Usa 'develop' primero."
+          exit 1
